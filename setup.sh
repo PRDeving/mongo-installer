@@ -119,9 +119,9 @@ case "$(uname -s)" in
         if [ "$(which apt-get)" != "" ]
         then
             echo "Updating repositories..."
-            apt-get update
+            sudo apt-get update
             echo "\n\nInstalling MongoDB..."
-            apt-get install mongo
+            sudo apt-get install mongo
 
             if [ "$(which mongod)" != "" ]
             then
@@ -131,7 +131,7 @@ case "$(uname -s)" in
                 case $ans in
                     [yY]*)
                         echo "installing PEAR/PECL"
-                        apt-get install php5-dev php-pear
+                        sudo apt-get install php5-dev php-pear
                         if [ "$(which pear)" != "" ]
                         then
                             echo "\nPEAR correctly installed"
