@@ -10,5 +10,5 @@ bash script to install mongoDB, mongoDB-php and all its dependences in mac and l
 
 ##Use
 ````bash
-curl -O https://raw.githubusercontent.com/PRDeving/mongo-installer/master/setup.sh && sudo sh setup.sh
+curl -O https://raw.githubusercontent.com/PRDeving/mongo-installer/master/setup.sh && sh setup.sh
 ```
