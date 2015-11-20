@@ -121,7 +121,7 @@ case "$(uname -s)" in
             echo "Updating repositories..."
             sudo apt-get update
             echo "\n\nInstalling MongoDB..."
-            sudo apt-get install mongo
+            sudo apt-get install mongodb
 
             if [ "$(which mongod)" != "" ]
             then
