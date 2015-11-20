@@ -15,6 +15,6 @@ curl -O https://raw.githubusercontent.com/PRDeving/mongo-installer/master/setup.
 ```
 ###Linux
 ````bash
-wget https://raw.githubusercontent.com/PRDeving/mongo-installer/master/setup.sh && sh setup.sh
+wget -O - https://raw.githubusercontent.com/PRDeving/mongo-installer/master/setup.sh >> setup.sh && sh setup.sh
 ```
 
